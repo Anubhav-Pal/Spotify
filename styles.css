@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap');
+
+
+body {
+    background-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.brandName{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    height: 65px;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 5px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    /* font-weight: bolder; */
+    font-size: 1.3rem;
+
+}
+
+.container {
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    margin: 23px auto;
+    background-image: url(https://wallpaperaccess.com/full/351878.jpg);
+
+}
+
+.bottom {
+    position: sticky;
+    height: 130px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons {
+    margin-bottom: 14px;
+}
+
+.icons i {
+    cursor: pointer;
+    margin: 0 18px;
+    
+    
+}
+
+#songProgressBar {
+    text-align: center;
+    width: 30vw;
+    cursor: pointer;
+}
+
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: rgb(43, 43, 43);
+    margin: 12px 0;
+    
+    justify-content: space-between;
+    align-items: center;
+    border-radius:12px;
+}
+
+
+
+.songItem img {
+    width: 23px;
+    margin: 0 23px;
+    border-radius: 55px;
+}
+
+.timeStamp{
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.songInfo{
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+
+    margin: 9.5vw;
+    left: 0;
+}
+
+.songInfo img{
+    display: flex;
+    opacity: 0  ;
+    transition: opacity 1 ease-in;
+}
+
+.Bottomcover{
+    width: 100px;
+    position:absolute ;
+    margin-left: 20px;
+    margin-top: 10px;
+    left: 0;
+}
