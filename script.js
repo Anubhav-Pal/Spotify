@@ -8,15 +8,15 @@ let songProgressBar = document.getElementById('songProgressBar');
 let gif= document.getElementById('gif');
 let songs = [
     { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
-    { songName: "Ghosts", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Let me love you", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Peaches", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Honest", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "As i am", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Let it go", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Baby", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Lets get lost", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Holy", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
+    { songName: "Lonely", filePath: "Assets/Audio.mp3", coverPath: "Assets/albumcover.jpg" },
 ]
 
 
